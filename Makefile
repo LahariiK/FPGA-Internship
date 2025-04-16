@@ -5,7 +5,7 @@ BOARD_FREQ=12
 CPU_FREQ=20
 FPGA_VARIANT=up5k
 FPGA_PACKAGE=sg48
-VERILOG_FILE=top.v
+VERILOG_FILE=top.v uart_tx_8n1.v ir_sensor_input.v
 
 #Uart Var	
 PICO_DEVICE=/dev/ttyUSB0   # replace by the terminal used by your device
