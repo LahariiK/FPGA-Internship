@@ -34,7 +34,7 @@ module top (
             send_newline <= 0;
         end else begin
             // Timer to control transmission frequency (once per second)
-            if (timer < 200) begin
+            if (timer < 12000000) begin
                 timer <= timer + 1;
                 tx_start <= 0;
             end else if (!tx_busy) begin
